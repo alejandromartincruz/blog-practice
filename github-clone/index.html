@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Github clone with bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-default">
+          
+          <a class="navbar-brand" href="index.html">
+            <img style="width:30px" alt="Brand" src="images/git-logo.png">
+          </a>
+          
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search GitHub" style="width:400px">
+            </div>
+          </form>
+          <ul class="nav navbar-nav">
+            <li><a href="#">Pull Requests</a></li>
+            <li><a href="#">Issues</a></li>
+            <li><a href="#">Gist</a></li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" title=""><span class="glyphicon glyphicon-bell" aria-hidden="true"></span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">New repository</a></li>
+                <li><a href="#">New organization</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>Signed in as: alejandromartincruz</li>
+                <hr>
+                <li><a href="#">Your profile</a></li>
+                <li><a href="#">Your stars</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Help</a></li>
+                <hr>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Sign out</a></li>
+              </ul>
+            </li>
+          </nav>
+        </div>
+      </div>
+      
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-xs-4"><img src="images/me.jpeg" class="profile-picture"></div>
+          <div class="col-xs-6">
+
+            <div class="alert alert-info" role="alert">
+              <div class="columns">
+                
+                <div>
+                  <strong>Pro tip:</strong>
+                  updating your profile with your name, location, and a profile picture helps other GitHub users get to know you.
+                </div>
+                <div>
+                  <button type="button" class="btn btn-success"><i class="glyphicon glyphicon-pencil"></i> Edit profile</button>
+                </div>
+
+              </div>
+            </div>
+          
+          <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-plus-sign"></span> Contributions</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-book"></span> Repositories</a></li>
+            <li role="presentation"><a href="#"><i class="glyphicon glyphicon-apple"></i> Public activity</a></li>
+          </ul>
+          <div class="panel-top-space">
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading"><strong>Popular repositories</strong></div>
+                <ul class="list-group">
+                  <li class="list-group-item"><span class="glyphicon glyphicon-book"></span> movie lovers</li>
+                  <li class="list-group-item">Dapibus ac facilisis in</li>
+                  <li class="list-group-item">Morbi leo risus</li>
+                  <li class="list-group-item">Porta ac consectetur ac</li>
+                  <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+              </div>
+              <!-- List group -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

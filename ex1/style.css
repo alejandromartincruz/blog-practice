@@ -1,0 +1,52 @@
+body {
+	margin: 0px;
+}
+
+button {
+	background-color: aquamarine;
+	padding: 8px 12px 8px 12px;
+
+}
+
+input {
+	padding: 6px 9px 7px 9px;
+	font-size: 14px
+}
+
+article {
+	padding: 20px;
+}
+
+.container {
+	display: flex;
+}
+
+.sidebar {
+	border-right: 2px solid #444;
+	width: 150px;
+	flex-shrink: 0;
+	background-color: #eee;
+}
+
+.main {
+
+	flex-grow: 1;
+}
+
+.main-header {
+	flex-grow: 1;
+	background-color: #eee;
+	padding: 30px;
+	display: inline-block;
+	font-family: Helvetica;
+	align-content: flex-end;
+}
+
+.cat-image {
+	width: 300px;
+}
+
+.user-menu a{
+	color: #555;
+	text-decoration: none;
+}
